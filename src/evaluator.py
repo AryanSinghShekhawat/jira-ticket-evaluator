@@ -96,4 +96,4 @@ def evaluate_ticket_pr(ticket_key: str, pr_url: str):
         return {"status": "error", "message": str(e)}
 
 if __name__ == "__main__":
-    print("✅ Jira Ticket Evaluator Ready!")
+    print("Jira Ticket Evaluator Ready!")
